@@ -1,0 +1,24 @@
+<div class="register-container">
+  <div class="register-form">
+    <div class="register-header">
+      <img src="assets/images/image.png" alt="Logo" class="logo">
+      <h1 class="register-title">Register</h1>
+    </div>
+    <form (ngSubmit)="register()">
+      <div class="form-group">
+        <label for="name">Name</label>
+        <input type="text" id="name" name="name" [(ngModel)]="name" required>
+      </div>
+      <div class="form-group">
+        <label for="email">Email</label>
+        <input type="email" id="email" name="email" [(ngModel)]="email" required>
+      </div>
+      <div class="form-group">
+        <label for="password">Password</label>
+        <input type="password" id="password" name="password" [(ngModel)]="password" required>
+      </div>
+      <button type="submit" class="register-button">Register</button>
+    </form>
+    <p class="login-link">Already have an account? <a routerLink="/login">Login</a></p>
+  </div>
+</div>
