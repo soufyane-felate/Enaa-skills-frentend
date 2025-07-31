@@ -7,11 +7,11 @@
 }
 
 .login-form {
-  background-color: #fff;
   padding: 40px;
   border-radius: 10px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
   width: 400px;
+    background-color: #9CC943;
 }
 
 .login-header {
@@ -20,8 +20,7 @@
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+  width: 50%;
   margin-bottom: 20px;
 }
 
